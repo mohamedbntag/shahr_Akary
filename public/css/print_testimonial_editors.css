@@ -1,0 +1,56 @@
+body, html { height: auto; overflow: auto}
+/*--start section header --------*/
+.container {font-size: 18px}
+
+header {display: flex;justify-content: space-between;align-items: center;}
+
+header .ministry {width: fit-content;text-align: center; font-weight: bold}
+
+header .real_model {font-size: 14px}
+
+/*--start section header --------*/
+
+/*------------start section title certificate-----------------------------*/
+.certificate {text-align: center; margin-top : 40px}
+
+.certificate h1 {font-weight: bold}
+
+.certificate div {width: 300px;margin: 15px auto;text-align: right;line-height: 25px;}
+.certificate div p {display: flex;justify-content: space-between;}
+/*------------End section title certificate-----------------------------*/
+
+/*------------start section details certificate-----------------------------*/
+.details .places { display: flex;}
+.details .places p { width: 50%;}
+/*------------End section details certificate-----------------------------*/
+
+/*------------start table ---------------------*/
+.main_color {background-color: #4a556814  !important ;color: #000000;}
+
+table td , table th {border: 1px solid #0000002e; padding: 5px 0 !important;}
+
+table thead th {font-size: 12px; font-weight: bold;  padding: 15px 0 !important}
+
+table tbody  {font-size: 12px;}
+/*------------start table ---------------------*/
+
+/*--------footer----------------------*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+/*--------footer----------------------*/
+@media print {
+    @page {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    body {
+        padding-top: 20px;
+        padding-bottom: 10px ;
+        -webkit-print-color-adjust: exact;
+    }
+}

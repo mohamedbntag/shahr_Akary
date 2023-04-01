@@ -1,0 +1,5 @@
+/*---------------------start style contain table ------*/
+.editors_page table thead {  background-color: #0d6efd;color: aliceblue;}
+.editors_page table tbody {  background-color:#e7f1ff;}
+
+/*.editors_page table tbody td {display: flex; justify-content: center; align-items: center; height:100%}

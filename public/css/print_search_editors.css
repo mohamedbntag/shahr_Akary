@@ -1,0 +1,62 @@
+body, html { height: auto; overflow: auto}
+/*--start section header --------*/
+.container {font-size: 18px}
+
+header {display: flex;justify-content: space-between;align-items: center;}
+
+header .ministry {width: fit-content;text-align: center; font-weight: bold}
+
+header .real_model {font-size: 14px}
+
+header .real_model .order_num {font-size: 18px; margin-top: 30px; font-weight: bold}
+
+/*--start section header --------*/
+
+/*------------start section title certificate-----------------------------*/
+.certificate {text-align: center; margin-top : 40px}
+
+.certificate h1 {font-weight: bold}
+
+/*------------start table ---------------------*/
+.main_color {background-color: #4a556814  !important ;color: #000000;}
+
+table { margin:0 !important}
+table td , table th {border: 1px solid #0000002e; padding: 5px 0 !important;}
+
+table thead th {font-size: 16px; font-weight: bold;  padding: 15px 0 !important}
+
+table tbody  {font-size: 12px;}
+
+table tbody td {font-size: 16px;line-height: 25px;}
+
+table tbody tr.side td {
+    border-top: 2px solid #000;
+    text-align: right;
+    padding: 0 25px !important;
+    height: 100px;
+}
+/*------------start table ---------------------*/
+
+/*--------footer----------------------*/
+footer {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between
+}
+
+footer div {width: 50%; margin-bottom: 10px}
+
+/*--------footer----------------------*/
+@media print {
+    @page {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    body {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        -webkit-print-color-adjust: exact;
+    }
+}

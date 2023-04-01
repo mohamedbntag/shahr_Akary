@@ -1,0 +1,47 @@
+/*---------------------start style contain table ------*/
+
+.table_testimonials { height: 72%; overflow: auto;}
+
+/*---------start Model second page for add editors - tables----------*/
+.show_editors, .show_search_editors{
+    position: absolute;
+    background-color: #09011882;
+    top:0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.show_editors .mainBox, .show_search_editors .mainBox {
+    background-color: #fff;
+    width: 80%;
+    height: 85%;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+}
+
+.mainBox .iconClose {
+    position: sticky;
+    right: 0;
+    top: 0;
+    color: #fd3878;
+    cursor: pointer;
+}
+
+.mainBox .iconClose i {transition: all .5s linear;}
+.mainBox .iconClose i:hover { transform: rotate(180deg);}
+
+.mainBox table thead , .mainBox .print_editors{
+    position: sticky;
+    right: 0;
+    top: 0;
+}
+
+
+
+/*.editors_page table tbody td {display: flex; justify-content: center; align-items: center; height:100%}

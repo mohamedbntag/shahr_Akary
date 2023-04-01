@@ -1,0 +1,79 @@
+.contain {
+    background-image: linear-gradient(79deg, #86cad5f2, #060224e8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_city {
+    width: 55%;
+    background-color: #ddd1fb;
+    padding: 40px 30px;
+    border-radius: 60px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 0 30px 0px #6231ff8f;
+    height: 68%;
+}
+
+.form_city .move_btn {
+    text-align: center;
+    font-family: sans-serif;
+    height: 15%;
+}
+
+.form_city .move_btn button {
+    color: #9fa7af;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 10px;
+    position: relative;
+    font-weight: 500;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.form_city .move_btn button.btn:focus {box-shadow: unset}
+
+.form_city .move_btn button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -105%;
+    width: 100%;
+    height: 2px;
+    background-color: #10207c;
+    transition: all .5s linear;
+}
+
+.form_city .move_btn button:hover, .form_city .move_btn button.active{color: #0a53be;}
+.form_city .move_btn button:hover::after, .form_city .move_btn button.active:after {right: 0;}
+
+.form_city hr { background-color: #3dd5f3}
+
+.form_city .contain_forms { height: 85%;position: relative; overflow: hidden}
+
+.form_city form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.form_city .contain_forms form#form_section{left: -105%}
+
+.form_city form .box_form_city {padding: 0 17px;}
+
+.form_city form .box_form_city input, .form_city form .box_form_city select{height: 45px}
+.form_city form .box_form_city input[type='submit'] {
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #5057c1, #07ff0099);
+}
+.form_city form .box_form_city input[type='submit']:hover {background-image: linear-gradient(45deg, #323bc1, #07ff00d9);}
+
+.form_city form .box_form_city span.text-danger {display:none;}
+

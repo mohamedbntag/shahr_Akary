@@ -1,0 +1,50 @@
+body, html {height: 100vh; overflow: hidden}
+.video_back, .contain{
+    position: absolute;
+    width: 100% !important;
+    height: 100%;
+    top:0;
+    left: 0;
+}
+
+.contain{
+    background-color: #101214c9;
+    z-index:999
+    /*display: none*/
+}
+
+.contain .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card { background:#200b3073 !important; color: #fff }
+.card-body { padding: 50px}
+.card-header.text-end {
+    background: #30004047;
+}
+
+label{
+    font-weight: bold;
+}
+
+video {
+    height:100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #101214;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3
+}
